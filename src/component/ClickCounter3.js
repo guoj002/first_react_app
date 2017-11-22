@@ -7,7 +7,7 @@ class ClickCounter extends Component{
 		super(props);
 		this.onCounterUpdate = this.onCounterUpdate.bind(this);
 
-		this.initValues = [ 0, 10, 50];
+		this.initValues = [ 0, 30, 50];
 		const initSum = this.initValues.reduce((a, b) => a + b, 0);
 		this.state = {
 			sum: initSum
