@@ -6,5 +6,14 @@ import './index.css';
 import App from './reduxDemo/views/ControlPanel';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import store from './redux_with_context/Store.js';
+import Provider from './redux_with_context/Provider.js';
+
+ReactDOM.render(
+		// <Provider store={store}>
+		// 	<App />
+		// </ Provider>,
+		<App />,
+		document.getElementById('root')
+	);
 registerServiceWorker();
