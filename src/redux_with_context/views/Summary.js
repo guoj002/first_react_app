@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 //版本三
 function Summary({sum}){
@@ -51,7 +52,7 @@ class SummaryContainer extends Component{
 }
 
 SummaryContainer.contextTypes = {
-  // store: PropTypes.object
+  store: PropTypes.object
 }
 
 export default SummaryContainer;

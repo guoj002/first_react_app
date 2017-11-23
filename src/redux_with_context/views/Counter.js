@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import * as Actions from '../Actions.js';
 
@@ -74,11 +75,11 @@ class CounterContainer extends Component {
 }
 
 CounterContainer.propTypes = {
-  // caption: PropTypes.string.isRequired
+  caption: PropTypes.string.isRequired
 };
 
 CounterContainer.contextTypes = {
-  // store: PropTypes.object
+  store: PropTypes.object
 }
 
 export default CounterContainer;
