@@ -57,8 +57,8 @@ class Counter extends Component{
 
 		return(
 			<div>
-				<button style={buttonStyle} onclick={this.onIncrement}>+</button>
-				<button style={buttonStyle} onclick={this.onDecrement}>-</button>
+				<button style={buttonStyle} onClick={this.onIncrement}>+</button>
+				<button style={buttonStyle} onClick={this.onDecrement}>-</button>
 				<span>{caption} count: {value}</span>
 			</div>
 		);
