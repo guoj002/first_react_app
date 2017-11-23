@@ -48,7 +48,7 @@ class Counter extends Component {
 		const { caption } = this.props;
 		return (
 			<div>
-				<button style={buttonStyle} onClick={this.onClickIncrementButton}> +</button>
+				<button style={buttonStyle} onClick={this.onClickIncrementButton}>+</button>
 				<button style={buttonStyle} onClick={this.onClickDecrementButton}>-</button>
 				<span>{caption } count: {this.state.count}</span>
 			</div>
